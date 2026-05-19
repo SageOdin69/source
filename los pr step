@@ -1,4 +1,39 @@
 LOF:
+Used Testrig CAM layout 1
+12:08: Go to flight phase 2
+- All the LAV signals are in Vacant position
+12:09: Change the lav position of LAV 1 to Occupied
+- LOS signal for LAV 1 changed to Occupied
+12:09 Remove PSA power of LAV 1
+Immediately LOS position is moved to Vacant
+12:10 change the signal to Vacant via discretes for LAV 1
+12:11 Connect PSA power again for LAV 1
+12:11 Remove LAV 1 DEUA power
+- BITE message for DEUA is reported
+12:13 change the LAV 1 status to Occupied when DEUA is OFF
+12:14 repower DEUA
+Occupied indication is seen
+12:14 Remove the DEUA power again
+LOS sign becomes Vacant
+12:15 Repower DEUA
+Occupied indication is seen
+12:16 LAV is opened
+LOS sign is Vacant
+12:17 LAV is closed
+LOS sign is Occupied
+12:18 Remove DEUA power
+LOS sign is Vacant ---> OK
+LAV is opened when DEUA is powered off
+12:19 DEUA is repowered
+LOS sign is Vacant
+12:20 Closed LAV 1
+LOS sign is Vacant ------> NOK
+12:22 DEUA power is removed
+LOS sign is Vacant
+12:24 Repowered DEUA
+LOS sign is Vacant -----> NOK (It should be Occupied from earlier step)
+
+LOF:
  
 Used Testrig CAM layout 1
 2:54: Go to flight phase 2
