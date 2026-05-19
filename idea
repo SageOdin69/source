@@ -1,0 +1,11 @@
+so in this directory i have kept a .tst script file from which .py script need to generated. 
+so i am thinking to automate this tidious process. 
+so here are the things that i am expecting: 
+1. for UP and UM statement, script should be able to understand the intend of the statement then it should add the statement need for it. 
+2. it should automatically acurately extract text, generate roi and crop image accuarately, keep in them different folder respectively and make a datasheet 
+for each respectively.
+3. Input: one .tst file, if any .data.init is present in .tst script it should check for .data.init is provided or not. if not provided tell to add that 
+particular file. A main image from which it will extract image and text.
+4. Output: it should generate .py script with the crop images, extracted text and generated roi with datasheet for it respectively.
+5. i have placed a sample folder in this project directory, you go to that folder and check the files and ref images too. how the .py file has been strutuerd. i have also attached the cyfast 
+library using which these converted .py scripts will be run. you can check which all statements are being used for UP and UM statements. For normal P, EP, S, E, D, commands too.
